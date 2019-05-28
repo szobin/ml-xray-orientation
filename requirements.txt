@@ -1,0 +1,4 @@
+tensorflow
+tflearn
+numpy
+h5py
