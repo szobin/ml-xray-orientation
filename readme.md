@@ -16,10 +16,10 @@ To get optimal performance original images was resized to icons (32*32). It meas
 time upto 1-2 minutes     
 
 ## preparing
-'''
+```
 git clone https://github.com/szobin/ml-xray-orientation
 pip3 install -r requirements.txt
-'''
+```
 
 #### place sample images to `images` subfolder like:
 /images/val/f/R12028047-a00001.png  
