@@ -1,2 +1,5 @@
 .idea/
-images/
+model/
+**/__pycache__
+**/*.pyc
+nohup.*

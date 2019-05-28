@@ -1,4 +1,5 @@
 tensorflow
 tflearn
 numpy
+scipy
 h5py

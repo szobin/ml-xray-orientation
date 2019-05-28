@@ -31,7 +31,7 @@ pip3 install -r requirements.txt
 ## usage
 
 ```
-python3 classifier.py [--img path] [--epoch NN]
+python3 xray_classifier.py [--img path] [--epoch NN]
    path - images filename for single classification of folder for mass classification
    epoch - numver of network traning cycles   
 ```
