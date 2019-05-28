@@ -12,7 +12,7 @@ Modifications:
   - implementation as python class `Classifier`
   - ImagePreprocessing was added (it's needs for normalize image)
   - ImageAugmentation was added (it's needs for avoid off small rotation and flipping influence )
-To get optimal performance original images was resized to icons (32*32). It measure helps to desrease training 
+To get optimal performance original images was resized to icons (32*32). It measure helps to decrease training 
 time upto 1-2 minutes     
 
 ## preparing
