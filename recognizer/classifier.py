@@ -51,7 +51,10 @@ class Classifier:
         self.n_epoch = n_epoch
         self.data_set = None
 
-        tf.logging.set_verbosity(tf.logging.ERROR)
+        # ft 1:
+        # tf.logging.set_verbosity(tf.logging.ERROR)
+        # ft 2.0:
+        tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
         # Make sure the data is normalized
         img_prep = ImagePreprocessing()
